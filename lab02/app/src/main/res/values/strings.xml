@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab02</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="reset">Reset</string>
+    <string name="step">Step %1d</string>
+    <string name="counter">%1d</string>
+</resources>
