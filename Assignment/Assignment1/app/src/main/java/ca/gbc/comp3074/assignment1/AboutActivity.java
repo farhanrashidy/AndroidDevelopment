@@ -20,14 +20,15 @@ public class AboutActivity extends AppCompatActivity {
 
         // Handle button click
         Button btnBack = findViewById(R.id.btnBack);
-        btnBack.setOnClickListener(v -> finish()); // Close AboutActivity and return to Main
+        // Close AboutActivity and return to Main
+        btnBack.setOnClickListener(v -> finish());
     }
 
     // Handle ActionBar back arrow click
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
-            finish(); // Return to MainActivity without creating new instance
+            finish();
             return true;
         }
         return super.onOptionsItemSelected(item);
