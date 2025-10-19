@@ -12,7 +12,6 @@
         <EditText
             android:id="@+id/editHours"
             android:hint="Enter number of hours worked"
-            android:inputType="numberDecimal"
             android:layout_marginBottom="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -20,7 +19,6 @@
         <EditText
             android:id="@+id/editRate"
             android:hint="Enter hourly rate"
-            android:inputType="numberDecimal"
             android:layout_marginBottom="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -28,7 +26,6 @@
         <EditText
             android:id="@+id/editTax"
             android:hint="Enter tax rate"
-            android:inputType="numberDecimal"
             android:layout_marginBottom="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
